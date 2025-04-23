@@ -59,11 +59,7 @@ const Hero = () => {
           <div className="md:w-2/5 relative">
             <div className="w-64 h-64 md:w-80 md:h-80 rounded-full overflow-hidden border-4 border-white shadow-xl">
               <img 
-<<<<<<< HEAD
                 src={photo} 
-=======
-                src={photo}
->>>>>>> 36c25520f8ac00065e79e4dd952815f6a368497f
                 alt="Profile" 
                 className="w-full h-full object-cover"
               />
