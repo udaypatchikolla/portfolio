@@ -1,5 +1,5 @@
 import { Github as GitHub, Linkedin, Mail } from 'lucide-react';
-
+import photo from '../../images/photoofmine.jpg';
 const Hero = () => {
   return (
     <section id="hero" className="pt-24 pb-16 md:pt-36 md:pb-24 relative bg-gradient-to-br from-indigo-50 to-white">
@@ -59,7 +59,7 @@ const Hero = () => {
           <div className="md:w-2/5 relative">
             <div className="w-64 h-64 md:w-80 md:h-80 rounded-full overflow-hidden border-4 border-white shadow-xl">
               <img 
-                src="images/photoofmine.jpg" 
+                src={photo}
                 alt="Profile" 
                 className="w-full h-full object-cover"
               />
