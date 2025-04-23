@@ -58,8 +58,7 @@ const Navbar = () => {
               </a>
             ))}
             <a 
-              href="/images/uday general cv.pdf" 
-              download 
+              href={uday}
               className="flex items-center bg-indigo-600 text-white px-4 py-2 rounded-md hover:bg-indigo-700 transition-colors duration-300"
             >
               <Download size={18} className="mr-2" />

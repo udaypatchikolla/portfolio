@@ -1,5 +1,5 @@
 import { ArrowUp } from 'lucide-react';
-
+import uday from '../../images/udaygeneral cv.pdf';
 const Footer = () => {
   const scrollToTop = () => {
     window.scrollTo({
@@ -27,7 +27,7 @@ const Footer = () => {
               <ArrowUp size={20} />
             </button>
             <a 
-              href="/images/uday general cv.pdf" 
+              href={uday} 
               download 
               className="bg-indigo-600 text-white px-6 py-3 rounded-md hover:bg-indigo-700 transition-colors duration-300"
             >
