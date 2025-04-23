@@ -19,7 +19,7 @@ const Certificates = () => {
       title: "Introduction to cloud computing",
       issuer: "NPTEL",
       date: "January 2023",
-      imageUrl: "/src/utils/cloud cerificaet.png",
+      imageUrl: "/images/cloudcerificaet.png",
       credentialUrl: "https://example.com/credential/1"
     },
     {
@@ -27,7 +27,7 @@ const Certificates = () => {
       title: "Server side JavaScript with Node.js",
       issuer: "Coursera",
       date: "May 2024",
-      imageUrl: "/src/utils/nodejs certificate.png",
+      imageUrl: "/images/nodejscertificate.png",
       credentialUrl: "https://www.coursera.org/account/accomplishments/certificate/CAAHM57584TT"
     },
     {
@@ -35,7 +35,7 @@ const Certificates = () => {
       title: "Building Web Applications in PHP",
       issuer: "Coursera",
       date: "November 2024",
-      imageUrl: "/src/utils/php certificate.png",
+      imageUrl: "/images/phpcertificate.png",
       credentialUrl: "https://www.coursera.org/account/accomplishments/certificate/XQD57OYNKPJ0"
     },
     {
@@ -43,7 +43,7 @@ const Certificates = () => {
       title: "Mastering Data Structures & AIgorithms using C and C++",
       issuer: "Udemy",
       date: "November 2023",
-      imageUrl: "/src/utils/dsa cerficate.png",
+      imageUrl: "/images/dsacerficate.png",
       credentialUrl: "https://www.udemy.com/certificate/UC-ba92473a-091f-4336-8c7a-1a942a639c34/"
     },
     {
@@ -51,7 +51,7 @@ const Certificates = () => {
       title: "Programming in C++:",
       issuer: "Coursera",
       date: "November 2023",
-      imageUrl: "/src/utils/c++ cerficate.png",
+      imageUrl: "/images/c++cerficate.png",
       credentialUrl: "https://www.coursera.org/account/accomplishments/specialization/certificate/TY7MNEJL6FUJ"
     },
     {
@@ -59,7 +59,7 @@ const Certificates = () => {
       title: "HTML, CSS, and Javascript for Web Developers",
       issuer: "Coursera",
       date: "July 2021",
-      imageUrl: "/src/utils/html,css.png",
+      imageUrl: "/images/html,css.png",
       credentialUrl: "https://www.coursera.org/account/accomplishments/certificate/D48TCV6RGCHY"
     },
   ];

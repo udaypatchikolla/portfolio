@@ -58,7 +58,7 @@ const Navbar = () => {
               </a>
             ))}
             <a 
-              href="src/utils/uday general cv.pdf" 
+              href="/images/uday general cv.pdf" 
               download 
               className="flex items-center bg-indigo-600 text-white px-4 py-2 rounded-md hover:bg-indigo-700 transition-colors duration-300"
             >
@@ -94,7 +94,7 @@ const Navbar = () => {
               </a>
             ))}
             <a 
-              href="/src/utils/uday general cv.pdf" 
+              href="/images/uday general cv.pdf" 
               download 
               className="flex items-center justify-center bg-indigo-600 text-white px-4 py-2 rounded-md hover:bg-indigo-700 transition-colors duration-300"
               onClick={() => setIsMenuOpen(false)}

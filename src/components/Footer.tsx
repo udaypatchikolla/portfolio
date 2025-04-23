@@ -27,7 +27,7 @@ const Footer = () => {
               <ArrowUp size={20} />
             </button>
             <a 
-              href="/src/utils/uday general cv.pdf" 
+              href="/images/uday general cv.pdf" 
               download 
               className="bg-indigo-600 text-white px-6 py-3 rounded-md hover:bg-indigo-700 transition-colors duration-300"
             >

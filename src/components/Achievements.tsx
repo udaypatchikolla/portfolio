@@ -18,7 +18,7 @@ const Achievements = () => {
       title: "3rd Position in ICP Hackathon",
       description: "Secured third place in the ICP hackathon on 2024.",
       date: "October 2023",
-      imageUrl: "/src/utils/hackathon.jpg"
+      imageUrl: "/images/hackathon.jpg"
     }
   ];
 
