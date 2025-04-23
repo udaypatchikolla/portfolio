@@ -17,8 +17,10 @@ html {
 
 body {
   font-family: 'Inter', sans-serif;
-  color: var(--text-main);
+   color: var(--text-main); 
   line-height: 1.5;
+  background: linear-gradient(to right, #a8edea, #fed6e3); /* Soft Mint Gradient */
+  color: #000;
 }
 
 .container {

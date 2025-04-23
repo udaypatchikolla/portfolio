@@ -1,6 +1,6 @@
 import { useState } from 'react';
 import { Trophy, X } from 'lucide-react';
-
+import hack from '../../images/hackathon.jpg';
 type Achievement = {
   id: number;
   title: string;

@@ -1,6 +1,11 @@
 import { useState } from 'react';
 import { X } from 'lucide-react';
-
+import cPlus from '../../images/c++cerficate.png';
+import cloud from "../../images/cloudcerificaet.png";
+import dsa from '../../images/dsacerficate.png';
+import nodeJs from '../../images/nodejscertificate.png';
+import php from '../../images/phpcertificate.png';
+import htmlCss from '../../images/html,css.png';
 type Certificate = {
   id: number;
   title: string;
@@ -19,7 +24,7 @@ const Certificates = () => {
       title: "Introduction to cloud computing",
       issuer: "NPTEL",
       date: "January 2023",
-      imageUrl: "/images/cloudcerificaet.png",
+      imageUrl: cloud,
       credentialUrl: "https://example.com/credential/1"
     },
     {
@@ -27,7 +32,7 @@ const Certificates = () => {
       title: "Server side JavaScript with Node.js",
       issuer: "Coursera",
       date: "May 2024",
-      imageUrl: "/images/nodejscertificate.png",
+      imageUrl: nodeJs,
       credentialUrl: "https://www.coursera.org/account/accomplishments/certificate/CAAHM57584TT"
     },
     {
@@ -35,7 +40,7 @@ const Certificates = () => {
       title: "Building Web Applications in PHP",
       issuer: "Coursera",
       date: "November 2024",
-      imageUrl: "/images/phpcertificate.png",
+      imageUrl: php,
       credentialUrl: "https://www.coursera.org/account/accomplishments/certificate/XQD57OYNKPJ0"
     },
     {
@@ -43,7 +48,7 @@ const Certificates = () => {
       title: "Mastering Data Structures & AIgorithms using C and C++",
       issuer: "Udemy",
       date: "November 2023",
-      imageUrl: "/images/dsacerficate.png",
+      imageUrl: dsa,
       credentialUrl: "https://www.udemy.com/certificate/UC-ba92473a-091f-4336-8c7a-1a942a639c34/"
     },
     {
@@ -51,7 +56,7 @@ const Certificates = () => {
       title: "Programming in C++:",
       issuer: "Coursera",
       date: "November 2023",
-      imageUrl: "/images/c++cerficate.png",
+      imageUrl: cPlus,
       credentialUrl: "https://www.coursera.org/account/accomplishments/specialization/certificate/TY7MNEJL6FUJ"
     },
     {
@@ -59,7 +64,7 @@ const Certificates = () => {
       title: "HTML, CSS, and Javascript for Web Developers",
       issuer: "Coursera",
       date: "July 2021",
-      imageUrl: "/images/html,css.png",
+      imageUrl: htmlCss,
       credentialUrl: "https://www.coursera.org/account/accomplishments/certificate/D48TCV6RGCHY"
     },
   ];

@@ -1,6 +1,8 @@
 import { useState } from 'react';
 import { ExternalLink, Github } from 'lucide-react';
-
+import real from '../../images/realestate.webp';
+import eazy from '../../images/eazydine.webp';
+import hotel from '../../images/hotelreserve.png';
 type Project = {
   id: number;
   title: string;
@@ -19,7 +21,7 @@ const Projects = () => {
       id: 1,
       title: "Real Estate Website",
       description: "A comprehensive real estate platform built with React and Node.js. Features include property listings, search functionality, and user authentication.",
-      image: "/images/realestate.webp",
+      image: real,
       tags: ["HTML","CSS" ,"Node.js", "MongoDB"],
       liveUrl: "https://example.com",
       githubUrl: "https://github.com/udaypatchikolla/real-estate-website",
@@ -28,7 +30,7 @@ const Projects = () => {
       id: 2,
       title: "Hotel Booking System",
       description: "A modern hotel booking system with room availability, booking management, and payment integration.",
-      image: "/images/hotelreserve.png",
+      image: hotel,
       tags: ["React", "Node.js", "MySQL"],
       liveUrl: "https://example.com",
       githubUrl: "https://github.com/udaypatchikolla/Hotel-reservation-System",
@@ -37,7 +39,7 @@ const Projects = () => {
       id: 3,
       title: "Food Ordering System",
       description: "An online food ordering platform with real-time order tracking and restaurant management features.",
-      image: "/images/eazydine.webp",
+      image: eazy,
       tags: ["React", "Node.js", "MongoDB"],
       liveUrl: "https://example.com",
       githubUrl: "https://github.com/udaypatchikolla/easy-dine",
